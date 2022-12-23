@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+  display: flex;
+  background-color: #ccc;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.nav h1 {
+  margin-left: 10%;
+}
+
+.menuNav {
+  display: flex;
+  list-style: none;
+  margin-top: 3.2%;
+}
+
+.menuNav a {
+  text-decoration: none;
+  background: rgb(97, 97, 97);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.menuNav a:hover{
+  background-color: rgb(201, 201, 201);
+  color: #000;
+  border: 2px solid rgb(97, 97, 97);
+  transition: .2s;
+}
+
+.menuNav a:active {
+  background: rgb(97, 97, 97);
+  color: white;
+  transition: .1s;
+}
+
+.menuList {
+  margin-left: 15%;
+}
+
+legend {
+  text-align: center;
+}
+
+
+
+#digNum {
+  width: 60%;
+  height: 30px;
+  font-size: 14pt;
+  border-radius: 5px;
+  cursor: not-allowed;
+}
+
+#digNum:disabled {
+  background-color: #fff;
+  border: 2px solid #000;
+}
+
+.campoCont {
+  display: flex;
+  justify-content: center;
+}
+
+.areaCalc {
+  margin: auto;
+  width: 500px;
+  border-radius: 5px;
+}
+
+.areaBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.btnNum {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 14pt;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.areaVal {
+  display: flex;
+  justify-content: center;
+}
+
+.btnCont {
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  font-size: 14pt;
+}
+
+.btnResult {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btnRes {
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  font-size: 14pt;
+}

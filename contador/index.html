@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contagem</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <div>
+    <header>
+      <div class="nav">
+        <h1>Menu</h1>
+        <ul class="menuNav">
+          <li class="menuList"> <a href="./index.html">Contador</a></li>
+          <li class="menuList"> <a href="../calculadora/calcular.html">Calculadora</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <fieldset>
+      <legend><h1>Contagem</h1></legend>
+        <div class="areaCont">
+          <label for="inputCont">Contar: </label>
+          <input id="inputCont" type="text" placeholder="até...">
+          <button type="submit" onclick="contagem()" style="margin-left: 10px;">Contar</button>
+          <button type="submit" onclick="limpar()" style="margin-left:5px;">Limpar</button>
+        </div>
+        <div id="error" style="text-align: center; margin-top: 5px;"></div>
+      </fieldset>
+
+      <div class="contArea">
+        <textarea id="contText" cols="50" rows="20" disabled style="background-color: white; border: 1px solid black;"></textarea>
+      </div>
+  </div>
+
+
+  <script src="./config.js"></script>
+</body>
+</html>

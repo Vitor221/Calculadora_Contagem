@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+legend {
+  text-align: center;
+}
+
+label {
+  margin-right: 1%;
+}
+
+fieldset {
+  width: 60%;
+  padding: 20px;
+  margin: auto;
+}
+
+.areaCont {
+  display: flex;
+  justify-content: center;
+}
+
+.contArea {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+#contText {
+  border-radius: 4%;
+  padding: 10px;
+  font-family: 'Kanit', sans-serif;
+  font-size: 10pt;
+}
+
+.nav {
+  display: flex;
+  background-color: #ccc;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.nav h1 {
+  margin-left: 10%;
+}
+
+.menuNav {
+  display: flex;
+  list-style: none;
+  margin-top: 3.2%;
+}
+
+.menuNav a {
+  text-decoration: none;
+  background: rgb(97, 97, 97);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.menuNav a:hover{
+  background-color: rgb(201, 201, 201);
+  color: #000;
+  border: 2px solid rgb(97, 97, 97);
+  transition: .2s;
+}
+
+.menuNav a:active {
+  background: rgb(97, 97, 97);
+  color: white;
+  transition: .1s;
+}
+
+.menuList {
+  margin-left: 15%;
+}

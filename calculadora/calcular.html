@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <h1>Menu</h1>
+      <ul class="menuNav">
+        <li class="menuList"> <a href="../contador/index.html">Contador</a></li>
+        <li class="menuList"> <a href="./calcular.html">Calculadora</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div>
+
+    <fieldset class="areaCalc">
+
+      <legend><h2>Calculadora</h2></legend>
+
+      <div class="campoCont">
+        <input type="text" id="digNum" disabled>
+      </div>
+
+      <br>
+      <div class="areaBtn">
+        <button type="button" class="btnNum" onclick="numsCalc(1)">1</button>
+        <button type="button" class="btnNum" onclick="numsCalc(2)">2</button>
+        <button type="button" class="btnNum" onclick="numsCalc(3)">3</button>
+        <button type="button" class="btnNum" onclick="numsCalc(4)">4</button>
+        <button type="button" class="btnNum" onclick="numsCalc(5)">5</button>
+        <button type="button" class="btnNum" onclick="numsCalc(6)">6</button>
+        <button type="button" class="btnNum" onclick="numsCalc(7)">7</button>
+        <button type="button" class="btnNum" onclick="numsCalc(8)">8</button>
+        <button type="button" class="btnNum" onclick="numsCalc(9)">9</button>
+        <button type="button" class="btnNum" onclick="numsCalc(0)">0</button>
+      </div>
+
+      <div class="areaVal">
+        <button type="button" class="btnCont" onclick="numsCalc('+')"> + </button>
+        <button type="button" class="btnCont" onclick="numsCalc('-')"> - </button>
+        <button type="button" class="btnCont" onclick="numsCalc('*')"> * </button>
+        <button type="button" class="btnCont" onclick="numsCalc('/')"> / </button>
+      </div>
+
+      <div class="btnResult">
+        <button type="button" onclick="res()" class="btnRes"> = </button>
+        <button type="button" onclick="limpar()" class="btnRes"> C </button>
+        <button type="button" onclick="voltar()" class="btnRes"> < </button>
+      </div>
+
+    </fieldset>
+
+  </div>
+
+  <script src="config.js"></script>
+</body>
+</html>
